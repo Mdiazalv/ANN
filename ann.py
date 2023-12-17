@@ -33,7 +33,7 @@ while correctdata == False:
     plt.title("Scatter Plot")
     plt.show()
 
-    pd.set_option('display.max_rows', None)  # Mostrar todas las filas
+    pd.set_option('display.max_rows', None)  # Show all rows
     pd.set_option('display.width', None)  
     pd.set_option('display.max_colwidth', None)
 
