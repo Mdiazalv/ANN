@@ -16,7 +16,6 @@ total_rows_dropped = 0
 
 while not correctdata:
     rows_dropped_this_iteration = 0 
-
     negative_values_indices = df[df['Y'] < 0].index
     alteration_indices_may = df[(df['X1'] >= 0.88) & (df['X2'] >= 0.2) & (df['Y'] <= 0.25)].index
     alteration_indices_min = df[(df['X1'] < 0.85) & (df['X2'] <= 0.1) & (df['Y'] >= 0.25)].index
